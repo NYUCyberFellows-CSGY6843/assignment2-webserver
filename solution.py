@@ -26,9 +26,9 @@ def webServer(port=13331):
       
       #fill in end
       
-      outputdata = #Fill in start -This variable can store your headers for a valid/ok request. #Fill in end
+      outputdata = #Fill in start -This variable can store your headers you want to send for any valid or invalid request. #Fill in end
 
-      #Send an HTTP header line into socket. What header should be sent for a response that is ok? 
+      #Send an HTTP header line into socket for a valid request. What header should be sent for a response that is ok? 
       #Fill in start
 
       #Fill in end
@@ -39,7 +39,7 @@ def webServer(port=13331):
       connectionSocket.close() #closing the connection socket
       
     except Exception as e:
-      # Send response message for file not found (404)
+      # Send response message for invalid request due to the file not being found (404)
       #Fill in start
 
       #Fill in end
