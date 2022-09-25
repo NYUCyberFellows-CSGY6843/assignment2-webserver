@@ -28,7 +28,7 @@ def webServer(port=13331):
       f = open(filename[1:], #fill in start #fill in end)
       #fill in end
       
-      outputdata = b"Content-Type: text/html; charset=UTF-8\r\n"\
+      outputdata = b"Content-Type: text/html; charset=UTF-8\r\n"
       #Fill in start -This variable can store your headers you want to send for any valid or invalid request. 
       #Content-Type above is an example on how to send a header as bytes
       #Fill in end
