@@ -3,6 +3,8 @@ from socket import *
 # In order to terminate the program
 import sys
 
+
+
 def webServer(port=13331):
   serverSocket = socket(AF_INET, SOCK_STREAM)
   
@@ -30,7 +32,7 @@ def webServer(port=13331):
       
       outputdata = b"Content-Type: text/html; charset=UTF-8\r\n"
       #Fill in start -This variable can store your headers you want to send for any valid or invalid request. 
-      #Content-Type above is an example on how to send a header as bytes
+      #Content-Type above is an example on how to send a header as bytes. There are more!
       #Fill in end
 
       #Send an HTTP header line into socket for a valid request. What header should be sent for a response that is ok? 
@@ -47,6 +49,7 @@ def webServer(port=13331):
       
     except Exception as e:
       # Send response message for invalid request due to the file not being found (404)
+      # Remember the format you used in the try: block!
       #Fill in start
 
       #Fill in end
