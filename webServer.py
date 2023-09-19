@@ -34,7 +34,7 @@ def webServer(port=13331):
       #This variable can store the headers you want to send for any valid or invalid request.   What header should be sent for a response that is ok?    
       #Fill in start 
               
-      #Content-Type above is an example on how to send a header as bytes. There are more!
+      #Content-Type is an example on how to send a header as bytes. There are more!
       outputdata = b"Content-Type: text/html; charset=UTF-8\r\n"
 
 
