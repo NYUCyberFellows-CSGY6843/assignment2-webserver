@@ -46,6 +46,8 @@ def webServer(port=13331):
       #Fill in start - append your html file contents #Fill in end 
         
       #Send the content of the requested file to the client (don't forget the headers you created)!
+      #Send everything as one send command, do not send one line/item at a time!
+
       # Fill in start
 
 
